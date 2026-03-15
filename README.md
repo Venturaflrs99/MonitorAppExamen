@@ -20,8 +20,8 @@ Requisitos previos
 Instalacion
 
 1. Clonar o descargar el repositorio:
-git clone <url-del-repositorio>
-cd monitor_app
+- git clone https://github.com/Venturaflrs99/MonitorAppExamen.git
+- cd MonitorAppExamen
 2. Crear el contenedor:
-docker compose build
-docker compose up
+- docker compose build
+- docker compose up
