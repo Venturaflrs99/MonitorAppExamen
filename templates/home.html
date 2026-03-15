@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monitor del Sistema</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+<div class="contenedor">
+<div class="encabezado">
+<h1>Monitor del Sistema</h1>
+<h1>Hector Josue Nuñez Perdomo - 202320120070</h1>
+<h1>Josue Daniel Ventura Flores - 202220120030</h1>
+<img src="{% static 'imagenes/logocarrera.jpg' %}" alt="Logo Carrera" style="width: 300px; height: 150px;">
+</div>
+        
+<div class="seccion-temporizador">
+<h2>Actualizando en: <span id="temporizador">5</span> segundos</h2>
+</div>
+
+<div class="contenedor-tarjetas">
+<div class="tarjeta">
+<h2>CPU</h2>
+<div class="informacion">
+<p>Uso: <span id="cpu-porcentaje">0</span>%</p>
+<p>Nucleos: <span id="cpu-nucleos">0</span></p>
+</div>
+</div>
+
+<div class="tarjeta">
+<h2>Memoria RAM</h2>
+<div class="informacion">
+<p>Uso: <span id="ram-usado">0</span> GB / <span id="ram-total">0</span> GB</p>
+<p>Porcentaje: <span id="ram-porcentaje">0</span>%</p>
+</div>
+</div>
+
+<div class="tarjeta">
+<h2>Disco Duro</h2>
+<div class="informacion">
+<p>Usado: <span id="disco-usado">0</span> GB</p>
+<p>Libre: <span id="disco-libre">0</span> GB</p>
+<p>Total: <span id="disco-total">0</span> GB</p>
+</div>
+</div>
+
+<div class="tarjeta">
+<h2>Sistema Operativo</h2>
+<div class="informacion">
+<p>SO: <span id="so-nombre">Cargando...</span></p>
+<p>Version: <span id="so-version">Cargando...</span></p>
+</div>
+</div>
+</div>
+
+<div class="pie-pagina">
+<p>Monitoreo en tiempo real</p>
+</div>
+</div>
+
+<script src="{% static 'js/principal.js' %}"></script>
+</body>
+</html>
