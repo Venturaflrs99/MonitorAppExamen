@@ -27,5 +27,5 @@ Instalacion
 - docker compose up
 
 Integrantes:
-Hector Josue Nuñez Perdomo - 202320120070
-Josue Daniel Ventura Flores - 202220120030
+- Hector Josue Nuñez Perdomo - 202320120070
+- Josue Daniel Ventura Flores - 202220120030
