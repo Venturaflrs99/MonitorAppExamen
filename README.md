@@ -25,3 +25,7 @@ Instalacion
 2. Crear el contenedor:
 - docker compose build
 - docker compose up
+
+Integrantes:
+Hector Josue Nuñez Perdomo - 202320120070
+Josue Daniel Ventura Flores - 202220120030
