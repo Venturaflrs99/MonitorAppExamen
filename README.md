@@ -1,5 +1,9 @@
 Monitor del Sistema
 
+Integrantes:
+- Hector Josue Nuñez Perdomo - 202320120070
+- Josue Daniel Ventura Flores - 202220120030
+
 Aplicacion web desarrollada con Django que muestra informacion en tiempo real del sistema utilizando la libreria psutil.
 
 Caracteristicas
@@ -25,7 +29,3 @@ Instalacion
 2. Crear el contenedor:
 - docker compose build
 - docker compose up
-
-Integrantes:
-- Hector Josue Nuñez Perdomo - 202320120070
-- Josue Daniel Ventura Flores - 202220120030
